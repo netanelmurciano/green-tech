@@ -6,7 +6,7 @@ the_post();
 
 
 ?>
-    <section class="container-fluid bg-light">
+    <section class=" bg-light">
         <div class="row justify-content-center">
             <div class="col-md-8 col-xs-12">
                 <div class="row justify-content-center">

@@ -27,10 +27,10 @@
     <div class="row bg-color-2">
         <div class="col-8 py-1 mx-auto">
             <div class="row text-left ">
-                <div class="col-10 pl-4">
-                    <a class="text-color-1 d-flex justify-content-center justify-content-lg-start align-items-center mt-2" href="tel:<?php the_field('contact_phone', 'option') ?>">
-                        <span class=" icon-s text-color-1"><i class="fa fa-phone" aria-hidden="true"></i></span>
-                        <span class=" h6 mb-0 white-space-nowrap hover-color-3 transition ml-1"><?php the_field('contact_phone', 'option') ?></span>
+                <div class="col-10">
+                    <a href="tel:<?php the_field('contact_phone', 'option') ?>" class="text-color-1 d-flex justify-content-center justify-content-lg-start align-items-center mt-2">
+                        <span class="icon-mobile icon-s text-color-1"></span>
+                        <span class=" h6 mb-0 white-space-nowrap hover-color-1 transition ml-1"><?php the_field('contact_phone', 'option') ?></span>
                     </a>
                 </div>
             </div>
@@ -47,7 +47,7 @@
                     <div class="col-10 col-md-4">
                         <div class="d-md-block text-left">
                             <a href="<?php echo site_url( '/' ) ?>">
-                                <?php echo wp_get_attachment_image(get_field('general_main_logo', 'option'), 'full', false, array('class' => 'img-fluid w-75')) ?>
+                                <?php echo wp_get_attachment_image(get_field('general_main_logo', 'option'), 'full', false, array('class' => 'img-fluid ')) ?>
                             </a>
                         </div>
                     </div>

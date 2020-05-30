@@ -20,7 +20,7 @@ get_header();
                 <div class="col-md-3">
                     <div class="text-color-5 h2"><i class="fa fa-users" aria-hidden="true"></i></div>
                     <div class="h3">Customer Services</div>
-                    <p><?php the_field('contact_email', 'option'); ?></p>
+                    <p><?php the_field('contact_service_time', 'option'); ?></p>
                 </div>
                 <div class="col-md-3">
                     <div class="text-color-5 h2"><i class="fa fa-envelope" aria-hidden="true"></i></div>

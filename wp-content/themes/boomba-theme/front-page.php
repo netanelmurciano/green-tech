@@ -117,7 +117,7 @@ get_header();
                                 <div class="col-12 col-md-3 mb-3 mb-md-0">
                                     <img src="<?php echo get_sub_field('icon') ?>" width="43px" height="34px"
                                          class="mb-1"/>
-                                    <div class="h3 text-color-1"><?php echo get_sub_field('title') ?></div>
+                                    <div class="h3 text-color-4"><?php echo get_sub_field('title') ?></div>
                                     <div><?php echo get_sub_field('sub_title') ?></div>
                                 </div>
                             <?php endwhile; ?>

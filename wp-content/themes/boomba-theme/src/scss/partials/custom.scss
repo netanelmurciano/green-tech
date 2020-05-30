@@ -18,3 +18,22 @@
   transform: scale(1.1);
 }
 
+.img-wrapper {
+  position: relative;
+  .icon-wrapper, .icon-mobile{
+    opacity: 0 !important;
+  }
+    &:hover {
+      pointer-events: auto;
+      .icon-wrapper {
+        opacity: 5 !important;
+        width: 40px;
+        height: 40px;
+      }
+      .icon-search {
+        opacity: 5 !important;
+        color: white;
+      }
+
+    }
+}

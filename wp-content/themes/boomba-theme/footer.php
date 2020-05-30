@@ -3,7 +3,7 @@
         <div class="row py-3">
             <div class="col-12 col-md-8 mx-auto">
                 <div class="row">
-                    <div class="col-md-3 py-2 mb-2 mb-md-0">
+                    <div class="col-md-3 py-2 mb-2 mb-md-0 text-left">
                         <!-- Logo -->
                         <?php echo wp_get_attachment_image(get_field('general_main_logo', 'option'), 'full', false, array('class' => 'img-fluid')) ?>
                         <!-- Phone Number-->

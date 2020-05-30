@@ -1,0 +1,10 @@
+.menu-footer-col-1-container {
+  ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  a:hover{
+    color: theme-color('color-5');
+    text-decoration: underline;
+  }
+}

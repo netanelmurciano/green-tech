@@ -1,0 +1,93 @@
+%btn-effects {
+  span {
+    position: relative;
+    z-index: 1;
+  }
+  &:after, &:before {
+    content: '';
+    height: 100%;
+    width: 0;
+    position: absolute;
+    top: 0;
+    background-color: theme-color('color-5') !important;
+    z-index: 0;
+    @include transition();
+  }
+  &:after {
+    left: 50%;
+  }
+  &:before {
+    right: 50%;
+  }
+  &:hover {
+    background-color: theme-color('color-5');
+    color: $white;
+    &:after {
+      width: 51%;
+      border-top-right-radius: 3px;
+      border-bottom-right-radius: 3px;
+    }
+    &:before {
+      width: 51%;
+      border-top-left-radius: 3px;
+      border-bottom-left-radius: 3px;
+    }
+  }
+}
+
+.s-btn-1 {
+  font-weight: 500;
+  @extend .py-1, .px-4;
+  display: inline-block;
+  width: max-content;
+  background-color: transparent;
+  color: theme-color('color-5');
+  border-radius: 50px;
+  border: 2px solid theme-color('color-5');
+  @include transition();
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  height: 40px;
+  line-height: 1.3rem;
+  @extend %btn-effects;
+}
+
+.s-btn-2 {
+  font-weight: 500;
+  @extend .py-1, .px-4;
+  display: inline-block;
+  width: max-content;
+  border: 2px solid $white;
+  background: transparent;
+  color: $white;
+  border-radius: 50px;
+  height: 40px;
+  line-height: 1.3rem;
+  outline: 0;
+  position: relative;
+  overflow: hidden;
+  @include transition();
+  @extend %btn-effects;
+}
+
+.s-btn-sm {
+  @extend .text-bread-crumbs;
+  @extend .py-1, .px-1;
+  display: inline-block;
+  width: max-content;
+  color: $white;
+  border-radius: 50px;
+  background: theme-color('color-3');
+  @include transition();
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  height: 24px;
+  line-height: 0.4rem;
+  border: 0;
+  outline: 0;
+  &:hover {
+    color: $white;
+  }
+}

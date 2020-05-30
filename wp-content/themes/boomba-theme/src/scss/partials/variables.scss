@@ -1,0 +1,116 @@
+$font-size-base: 1rem !default; // 16px
+$spacer: 2rem; // 32px
+
+$font-family-sans-serif: 'Heebo', sans-serif !default;
+$font-family-base: $font-family-sans-serif;
+
+$font-weight-lighter: 100 !default;
+$font-weight-light: 300 !default;
+$font-weight-normal: 400 !default;
+$font-weight-bold: 700 !default;
+$font-weight-bolder: 900 !default;
+// e.g font-weight-light
+
+
+// in colorandtext.pdf - it may show as text1 that's equal to h1
+/**
+Thin, Hairline	            100
+Extra Light, Ultra Light	200
+Light	                    300
+Normal, Regular	            400
+Medium	                    500
+Semi Bold, Demi Bold	    600
+Bold	                    700
+Extra Bold, Ultra Bold	    800
+Black, Heavy	            900
+ */
+
+
+$slider-title-font-size: $font-size-base * 3.687 !default;
+$slider-title-font-size-mobile: $font-size-base * 1.562 !default;
+$slider-title-font-weight: 700;
+
+$slider-subtitle-font-size: $font-size-base * 1.437 !default;
+$slider-subtitle-font-size-mobile: $font-size-base * 1.25 !default;
+$slider-subtitle-font-weight: 400;
+
+$h1-font-size: $font-size-base * 2.5 !default;
+$h1-font-size-mobile: $font-size-base * 1.5 !default;
+$h1-font-weight: 400;
+
+$h2-font-size: $font-size-base * 2.25 !default;
+$h2-font-size-mobile: $font-size-base * 1.375 !default;
+$h2-font-weight: 800;
+
+$h3-font-size: $font-size-base * 1.375 !default;
+$h3-font-size-mobile: $font-size-base * 1.312 !default;
+$h3-font-weight: 500;
+
+$h4-font-size: $font-size-base * 1.25 !default;
+$h4-font-size-mobile: $font-size-base * 1.125 !default;
+$h4-font-weight: 400;
+
+$h5-font-size: $font-size-base * 1.125 !default;
+$h5-font-size-mobile: $font-size-base * 1.062 !default;
+$h5-font-weight: 500;
+
+$h6-font-size: $font-size-base * 1.12 !default;
+$h6-font-size-mobile: $font-size-base * 1 !default;
+$h6-font-weight: 700;
+
+$p-font-size: $font-size-base * 1 !default;
+$p-font-size-mobile: $font-size-base * 0.937 !default;
+$p-font-weight: 400;
+
+$nav-font-size: $font-size-base * 1.125 !default;
+$nav-font-weight: 900;
+
+$bread-crumbs-font-size: $font-size-base * 0.937 !default;
+$bread-crumbs-font-weight: 100;
+
+// stay the same all projects
+$icon-xs: $font-size-base * 1.07 !default;
+$icon-s: $font-size-base * 1.60 !default;
+$icon-m: $font-size-base * 2.13 !default;
+$icon-l: $font-size-base * 3.20 !default;
+$icon-xl: $font-size-base * 4.27 !default;
+$icon-xxl: $font-size-base * 8 !default;
+
+
+// the space bottom between h tag and the next content
+$headings-margin-bottom: 0.5rem;
+
+$body-color: #fafafa !default;
+$link-color: #002c53;
+$theme-colors: (
+        color-1: #00003C,
+        color-2: #fafafa,
+        color-3: #ECF0F1,
+        color-4: #F4F4F4,
+        color-5: #0097f0,
+        color-6: #797979,
+);
+
+$link-decoration: none;
+$link-hover-decoration: none;
+
+$input-border-radius: 50px;
+$input-bg: #fff;
+$input-border-width: 1px;
+$input-border-color: #0cdfe7;
+$input-focus-border-color: #0cdfe7;
+$btn-border-radius: 50px;
+
+$box-shadow: 0 0 20px 0 rgba(87, 167, 230, 0.24) !default;
+$box-shadow-lg: 0 1rem 3rem rgba(0, 0, 0, 0.175) !default;
+$box-shadow-1: 0px 0px 40px 0px rgba(129, 78, 202, 0.2) !default;
+$header-box-shadow: 0 2px 4.75px 0.25px rgba(0, 0, 0, 0.1) !default;
+
+//$btn-padding-x: 3rem !default;
+//$btn-padding-y: 0.80rem !default;
+//$btn-border-width: 2px !default;
+//$btn-line-height: 1 !default;
+//$btn-focus-box-shadow: none !important !default;
+//$border-radius: $font-size-base;
+//$box-shadow-sm: 0 0 10px 0 rgba(87, 167, 230, 0.24) !default;
+

@@ -1,0 +1,19 @@
+.box-shadow {
+  box-shadow: $box-shadow;
+}
+.box-shadow-lg {
+  box-shadow: $box-shadow-lg;
+}
+.box-shadow-1 {
+  box-shadow: $box-shadow-1;
+}
+
+.box-shadow-hover {
+  &:hover {
+    h3 {
+      color: theme-color('color-5')
+    }
+    @extend .box-shadow-1
+  }
+}
+
